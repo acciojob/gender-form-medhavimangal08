@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Select your gender:</h1>
+      <h2>Select your gender:</h2>
 
       <label>
         <input
