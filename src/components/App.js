@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Select your gender 1:</h2>
+      <h2>Select your gender:</h2>
 
       <label>
         <input
@@ -45,7 +45,7 @@ const App = () => {
             <option value="Large">Large</option>
           </select>
         </div>
-      ) : gender === true ? (
+      ) : (
         <div>
           <label>Select Dress Size:</label>
           <select value={size} onChange={(e) => setSize(e.target.value)}>
@@ -55,7 +55,7 @@ const App = () => {
             <option value="6">6</option>
           </select>
         </div>
-      ) : null}
+      )}
     </div>
   );
 };
